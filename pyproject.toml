@@ -1,0 +1,11 @@
+[project]
+name = "fastapi-observability-stack"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.139.2",
+    "prometheus-fastapi-instrumentator>=8.0.2",
+    "uvicorn>=0.51.0",
+]
